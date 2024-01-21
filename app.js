@@ -41,17 +41,17 @@
  *
  */
 
-console.log('--- Inicio programa!');
-console.log('--- Entrada do usuário!');
-let limiteContador = Number(prompt('Informe o valor limite do contador: '));
-console.log('--- Limite do contador definido.');
-while (limiteContador >= 0) {
-    console.log('Iteração número ' + limiteContador);
-    // Remove - 1 ao valor do limiteContador
-    limiteContador--;
-}
-console.log('--- Fim loop!');
-console.log('--- Fim programa!');
+// console.log('--- Inicio programa!');
+// console.log('--- Entrada do usuário!');
+// let limiteContador = Number(prompt('Informe o valor limite do contador: '));
+// console.log('--- Limite do contador definido.');
+// while (limiteContador >= 0) {
+//     console.log('Iteração número ' + limiteContador);
+//     // Remove - 1 ao valor do limiteContador
+//     limiteContador--;
+// }
+// console.log('--- Fim loop!');
+// console.log('--- Fim programa!');
 
 // ---
 
@@ -60,4 +60,18 @@ console.log('--- Fim programa!');
  * Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
  *
  */
+
+console.log('--- Inicio programa!');
+console.log('--- Entrada do usuário!');
+let limiteContador = Number(prompt('Informe o valor limite do contador: '));
+contador = 1;
+console.log('--- Limite do contador definido.');
+while (contador <= limiteContador) {
+    console.log('Iteração número ' + contador);
+    // Remove - 1 ao valor do limiteContador
+    contador++;
+}
+console.log('--- Fim loop!');
+console.log('--- Fim programa!');
+
 // ---
