@@ -4,21 +4,36 @@
  *
  */
 
-console.log('--- Inicio programa!');
-let contador = 1;
-console.log('--- Contador definido.');
-while (contador <= 10) {
-    console.log('--- Inicio do loop.');
-    console.log('Iteração número ' + contador);
-    contador++;
-}
-console.log('--- Fim programa!');
+// console.log('--- Inicio programa!');
+// let contador = 1;
+// console.log('--- Contador definido.');
+// console.log('--- Inicio do loop.');
+// while (contador <= 10) {
+//     console.log('Iteração número ' + contador);
+//     // Adiciona + 1 ao valor do contador
+//     contador++;
+// }
+// console.log('--- Fim do loop.');
+// console.log('--- Fim programa!');
 // ---
 
 /**
  * Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
  *
  */
+
+console.log('--- Inicio programa!');
+let contador = 10;
+console.log('--- Contador definido.');
+console.log('--- Inicio do loop.');
+while (contador >= 0) {
+    console.log('Iteração número ' + contador);
+    // Remove - 1 ao valor do contador
+    contador--;
+}
+console.log('--- Fim do loop.');
+console.log('--- Fim programa!');
+
 // ---
 
 /**
