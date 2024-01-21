@@ -3,6 +3,16 @@
  * Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
  *
  */
+
+console.log('--- Inicio programa!');
+let contador = 1;
+console.log('--- Contador definido.');
+while (contador <= 10) {
+    console.log('--- Inicio do loop.');
+    console.log('Iteração número ' + contador);
+    contador++;
+}
+console.log('--- Fim programa!');
 // ---
 
 /**
